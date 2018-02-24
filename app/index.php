@@ -1,6 +1,7 @@
 <?php
 require("includes/config.php");
 
+header("Content-Type:application/json");
 
 $result = $db->query("SELECT * FROM test");
 $a = array();
